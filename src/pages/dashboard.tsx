@@ -81,7 +81,7 @@ export default function Dashboard() {
                     alignItems="flex-start"
                 >
                     <Box
-                        padding="8"
+                        padding={["6", "8"]}
                         bg="gray.800"
                         borderRadius={8}
                         pb="4"
@@ -101,7 +101,7 @@ export default function Dashboard() {
                     </Box>
 
                     <Box
-                        padding="8"
+                        padding={["6", "8"]}
                         bg="gray.800"
                         borderRadius={8}
                         pb="4"
