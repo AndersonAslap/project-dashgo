@@ -40,6 +40,7 @@ export function Header() {
 
             <Logo text="dashgo" />
 
+
             {isWideVersion && <SearchBox />}
 
             <Flex
@@ -56,6 +57,7 @@ export function Header() {
                 />
 
             </Flex>
+
 
         </Flex>
     );
